@@ -1,0 +1,34 @@
+#@base_url = http://localhost:8080/api
+#@base_url = https://young-stream-32536.herokuapp.com/api
+
+
+@base_url = https://damp-earth-51701.herokuapp.com/api
+
+
+
+https://swapi.dev/api/planets/1/
+###
+https://swapi.dev/api/people
+###
+{{base_url}}/amangousse
+
+
+
+###
+POST {{base_url}}/amangousse
+Content-Type: application/json
+
+{
+  "name": "fender",
+  "color": "white"
+}
+###
+POST {{base_url}}/amangousse
+Content-Type: application/json
+
+{
+  "name": "PRS",
+  "color": "yellow"
+}
+###
+DELETE {{base_url}}/amangousse/PRS
