@@ -2,7 +2,7 @@
 #@base_url = https://young-stream-32536.herokuapp.com/api
 
 
-@base_url = https://damp-earth-51701.herokuapp.com/api
+@base_url = https://testdarb1.herokuapp.com/api
 
 
 
@@ -10,7 +10,7 @@ https://swapi.dev/api/planets/1/
 ###
 https://swapi.dev/api/people
 ###
-{{base_url}}/amangousse
+{{base_url}}/guitar
 
 
 

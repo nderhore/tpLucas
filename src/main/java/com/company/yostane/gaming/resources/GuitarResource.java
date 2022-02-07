@@ -14,7 +14,7 @@ import javax.ws.rs.core.Response;
 import com.company.yostane.gaming.ejb.StockGuitarBean;
 import com.company.yostane.gaming.model.StockGuitar;
 
-@Path("amangousse")
+@Path("guitar")
 public class GuitarResource {
 
   @Inject
