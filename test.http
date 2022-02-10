@@ -5,17 +5,16 @@
 @base_url = https://testdarb1.herokuapp.com/api
 
 
-
-https://swapi.dev/api/planets/1/
+#https://swapi.dev/api/planets/1/
 ###
-https://swapi.dev/api/people
+#https://swapi.dev/api/people
 ###
 {{base_url}}/guitar
 
 
 
 ###
-POST {{base_url}}/amangousse
+POST {{base_url}}/guitar
 Content-Type: application/json
 
 {
@@ -23,7 +22,7 @@ Content-Type: application/json
   "color": "white"
 }
 ###
-POST {{base_url}}/amangousse
+POST {{base_url}}/guitar
 Content-Type: application/json
 
 {
@@ -31,4 +30,4 @@ Content-Type: application/json
   "color": "yellow"
 }
 ###
-DELETE {{base_url}}/amangousse/PRS
+DELETE {{base_url}}/guitar/PRS

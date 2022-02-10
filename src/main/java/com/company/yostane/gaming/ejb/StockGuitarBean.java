@@ -31,4 +31,8 @@ public class StockGuitarBean {
         guitars.addAll(tempList);
     }
 
+    public void update(StockGuitar stockGuitar) {
+        guitars.add(stockGuitar);
+    }
+
 }
