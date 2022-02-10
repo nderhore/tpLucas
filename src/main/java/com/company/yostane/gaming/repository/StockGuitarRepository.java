@@ -29,7 +29,9 @@ public class StockGuitarRepository {
     }
 
     public StockGuitar save(StockGuitar stockGuitar) {
-        entityManager.persist(stockGuitar);
+        if(stockGuitar != null) {
+            entityManager.persist(stockGuitar);
+        }
         return stockGuitar;
     }
 
