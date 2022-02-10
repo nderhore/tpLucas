@@ -21,6 +21,16 @@ Content-Type: application/json
   "name": "fender",
   "color": "white"
 }
+
+
+###
+PUT {{base_url}}/guitar
+Content-Type: application/json
+
+{
+  "name": "fender",
+  "color": "toto"
+}
 ###
 POST {{base_url}}/guitar
 Content-Type: application/json
@@ -30,4 +40,4 @@ Content-Type: application/json
   "color": "yellow"
 }
 ###
-DELETE {{base_url}}/guitar/PRS
+DELETE {{base_url}}/guitar/fender
