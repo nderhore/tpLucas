@@ -2,7 +2,7 @@
 #@base_url = https://young-stream-32536.herokuapp.com/api
 
 
-@base_url = https://testdarb1.herokuapp.com/api
+@base_url = http://localhost:8080/amangousse/api
 
 
 #https://swapi.dev/api/planets/1/
@@ -10,25 +10,25 @@
 #https://swapi.dev/api/people
 ###
 {{base_url}}/guitar
-
-
+###
+GET http://localhost:8080/api/guitar
 
 ###
-POST {{base_url}}/guitar
+POST http://localhost:8080/api/guitar
 Content-Type: application/json
 
 {
-  "name": "fender",
-  "color": "white"
+  "name": "lucas",
+  "color": "black"
 }
 
 
 ###
-PUT {{base_url}}/guitar
+PUT http://localhost:8080/api/guitar
 Content-Type: application/json
 
 {
-  "name": "fender",
+  "name": "lucas",
   "color": "toto"
 }
 ###
